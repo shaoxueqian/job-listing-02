@@ -1,0 +1,1602 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=Shift_JIS" />
+<title>Pasco</title>
+<meta http-equiv="Content-style-type" content="text/css" />
+<meta http-equiv="Content-script-type" content="text/javascript" />
+<meta name="keywords" content="パン,食パン,ロールパン,マフィン,ベーグル,菓子パン,レシピ,パスコ,敷島" />
+<meta name="description" content="「超熟のPasco」、敷島製パンのホームページ。食パン、ロールパン、マフィン、ベーグル、菓子パンなどの商品を紹介。その他、豊富なパンレシピや食育情報も。「超熟のPasco」、敷島製パンのホームページ。食パン、ロールパン、マフィン、ベーグル、菓子パンなどの商品を紹介。その他、豊富なパンレシピや食育情報も。" />
+<meta name="author" content="Pasco 敷島製パン株式会社" lang="ja" xml:lang="ja" />
+<meta name="copyright" content="Copyright(c) Pasco Shikishima Corporation All Rights Reserved." />
+<meta name="robots" content="INDEX,FOLLOW" />
+<link href="css/import.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/small.css" type="text/css" media="screen,tv,print" title="fontSmall" />
+<link rel="alternate stylesheet" href="css/middle.css" type="text/css" media="screen,tv,print" title="fontMiddle" />
+<link rel="alternate stylesheet" href="css/big.css" type="text/css" media="screen,tv,print" title="fontBig" />
+<link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
+<link href="css/jquery.bxslider.css" rel="stylesheet" />
+<link href="css/response.css" rel="stylesheet" />
+<link href="css/slick.css" rel="stylesheet" type="text/css" media="all" charset="utf-8" />
+<link href="css/slick-theme.css" rel="stylesheet" type="text/css" media="all" charset="utf-8" />
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/rollover.js"></script>
+<script type="text/javascript" src="js/css_switch.js" ></script>
+<script type="text/javascript" src="js/slick.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/yuga.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="js/pagetop.js"></script>
+<script type="text/javascript" src="js/sub_file.js"></script>
+<script type="text/javascript" src="js/top_page.js"></script>
+<link rel="stylesheet" href="css/top_page.css"/>
+<script type="text/javascript">
+$(function(){
+    // setViewport
+    spView = 'width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0';
+    tbView = 'width=1000px,maximum-scale=2.0,user-scalable=1';
+ 
+    if(navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPod') > 0 || (navigator.userAgent.indexOf('Android') > 0 && navigator.userAgent.indexOf('Mobile') > 0)){
+        $('head').prepend('<meta name="viewport" content="' + spView + '" id="viewport">');
+    } else if(navigator.userAgent.indexOf('iPad') > 0 || (navigator.userAgent.indexOf('Android') > 0 && navigator.userAgent.indexOf('Mobile') == -1) || navigator.userAgent.indexOf('A1_07') > 0 || navigator.userAgent.indexOf('SC-01C') > 0){
+        $('head').prepend('<meta name="viewport" content="' + tbView + '" id="viewport">');
+    } 
+});
+</script>
+<!--[if IE 6]>
+<script type="text/javascript" src="js/DD_belatedPNG_0.0.8a-min.js"></script>
+<script type="text/javascript">$(function() {DD_belatedPNG.fix('.png')})</script>
+<![endif]-->
+<style>
+.mainslide_wrap ul{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	height: 395px;
+}
+</style>
+</head>
+<body class="body_top response" id="top_page">
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1584043975151927&ev=PageView&noscript=1"
+/></noscript>
+<div id="flash_area" class="flash_area_top">
+	<header>
+		<div id="HeadWrap">
+			<div id="pcHeadWrap">
+				<div id="header" class="fix">
+					<div id="spHeadWrap">
+						<h1 id="main_logo"><a href="http://www.pasconet.co.jp/"><span>Pasco</span></a></h1>
+					</div>
+					<div id="SpMenu" class="accordion">
+						<dl>
+							<dt><span>MENU</span></dt>
+							<dd id="GlobalNavi">
+								<ul>
+									<li class="child01 ico_pc"><a href="system/bread/index.cgi?action=new_list"><span class="navi_child">商品情報</span></a></li>
+									<li class="child02"><a href="system/recipe/index.php?ts=1407809707"><span class="navi_child">レシピ</span></a></li>
+									<li class="child03 ico_pc"><a href="fun/index.html"><span class="navi_child">パンの学校 学ぶ・楽しむ</span></a></li>
+									<li class="child04 ico_pc"><a href="system2/netshopping/index.cgi"><span class="navi_child">ネットショッピング</span></a></li>
+									<li class="child05 ico_pc"><a href="company/csr/index.html"><span class="navi_child">CSR Pascoの取り組み</span></a></li>
+									<li class="child06 ico_pc"><a href="consultation/index.html"><span class="navi_child">お客さま相談室</span></a></li>
+									<li class="display_sp ico_pc"><a href="company/index.html"><span class="navi_child">会社情報</span></span></a></li>
+									<li class="display_sp ico_pc"><a href="http://www.pasconet.co.jp/recruit/index.html" target="_blank"><span class="navi_child">採用情報</span></span></a></li>
+									<li class="display_sp ico_pc"><a href="english/index.html"><span class="navi_child">English</span></span></a></li>
+									<li class="display_sp ico_pc"><a href="china/index.html"><span class="navi_child">中文</span></span></a></li>
+								</ul>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<div id="SubmenuWrap">
+					<div class="hnav fix">
+						<ul>
+							<li class="hnav_01"><a href="company/index.html"><img src="common/hnav_01.gif" width="63" height="14" alt="会社情報" class="btn" /></a></li>
+							<li class="hnav_02"><a href="http://www.pasconet.co.jp/recruit/index.html" target="_blank"><img src="common/hnav_02.gif" width="63" height="14" alt="採用情報" class="btn" /> </a></li>
+							<li class="hnav_03"><a href="english/index.html"><img src="common/hnav_03.gif" width="62" height="14" alt="English" class="btn" /> </a></li>
+							<li class="hnav_04"><a href="china/index.html"><img src="common/hnav_04.gif" width="42" height="14" alt="中文" class="btn" /></a></li>
+						</ul>
+						<p class="fsize_01"> <img src="common/head_fontsize.gif" alt="文字サイズ" width="60" height="14"/> </p>
+						<p class="fsize_02"><a href="javascript:void(0);" onClick="setActiveStyleSheet('fontSmall'); return false;" onKeyPress="setActiveStyleSheet('fontSmall'); return false;" title="テキストサイズ小"><span>小</span></a></p>
+						<p class="fsize_03"><a href="javascript:void(0);" onClick="setActiveStyleSheet('fontMiddle'); return false;" onKeyPress="setActiveStyleSheet('fontMiddle'); return false;" title="テキストサイズ中"><span>中</span></a></p>
+						<p class="fsize_04"><a href="javascript:void(0);" onClick="setActiveStyleSheet('fontBig'); return false;" onKeyPress="setActiveStyleSheet('fontBig'); return false;" title="テキストサイズ大"><span>大</span></a></p>
+					</div>
+					<p class="top_link display_sp"><a href="sp_list.html">スマートフォン対応ページについて</a></p>
+					<div class="searchbox fix">
+						<p class="search01"> <img src="common/txt_search.gif" width="72" height="12" alt="サイト内検索" /> </p>
+						<div class="search02">
+							<form action="../../searchresult.html" id="cse-search-box" accept-charset="UTF-8">
+								<div class="fix">
+									<input type="hidden" name="cx" value="006045811972314859435:_66tppzn1mu" />
+									<input type="hidden" name="cof" value="FORID:9;NB:1" />
+									<input type="hidden" name="ie" value="UTF-8" />
+									<input type="text" name="q" class="left" placeholder="サイト内検索" />
+									<input name="sa" type="submit" value="検索" class="right btn_submit"/>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="mainslide_wrap centering_wrapper bg_transparent">
+		<ul id="main_slide" class="bg_transparent">
+			<li class="bg_transparent"> <a href="/chojuku/" target="_blank" class="bg_transparent"> <img src="image/slider_img_01.png" class="png" alt="超熟" /> </a> </li>
+			<li class="bg_transparent"> <a href="/english_muffins/" target="_blank" class="bg_transparent"> <img src="image/slider_img_15.png" alt="イングリッシュマフィン" class="png" /> </a> </li>
+			<li class="bg_transparent">
+				<div  class="display_pc"><a href="variety-bread/" target="_blank"><img src="image/slider_img_variety.png" alt="バラエティブレッド" /></a></div>
+				<div  class="display_sp"><a href="variety-bread/sp/" target="_blank"><img src="image/slider_img_variety.png" alt="バラエティブレッド" /></a></div>
+			</li>
+			<!--<li class="bg_transparent"> <a href="/mybagel-special/" target="_blank" class="bg_transparent"> <img src="image/slider_img_13.png" alt="MY BAGLE" class="png" /> </a> </li>-->
+			<li class="bg_transparent"> <a href="/yumechikara/" target="_blank" class="bg_transparent"> <img src="image/slider_img_04.png" alt="ゆめちから" class="png" /> </a> </li>
+		</ul>
+	</div>
+</div>
+<div id="PcNavi">
+	<ul>
+		<li class="child01 ico_pc"><a href="system/bread/index.cgi?action=new_list"><span class="navi_child">商品情報</span></a></li>
+		<li class="child02"><a href="system/recipe/index.php?ts=1407809707"><span class="navi_child">レシピ</span></a></li>
+		<li class="child03 ico_pc"><a href="fun/index.html"><span class="navi_child">パンの学校 学ぶ・楽しむ</span></a></li>
+		<li class="child04 ico_pc"><a href="system2/netshopping/index.cgi"><span class="navi_child">ネットショッピング</span></a></li>
+		<li class="child05 ico_pc"><a href="company/csr/index.html"><span class="navi_child">CSR Pascoの取り組み</span></a></li>
+		<li class="child06 ico_pc"><a href="consultation/index.html"><span class="navi_child">お客さま相談室</span></a></li>
+	</ul>
+</div>
+
+
+
+<div class="display_sp"><a href="http://www.pasconet.co.jp/chojuku/" target="_blank"><img src="image/response/top/img_spmain02.jpg" alt="" class="scale opacity" /></a></div>
+<div id="flash_area2" class="fix"> 
+	<!-- <div class="left_area flt_left">
+			<p>&nbsp;</p>
+		</div> --> 
+	<!-- <div class="middle_area flt_left"> -->
+	<div class="">
+		<div id="slick_container">
+			<div id="slider7">
+				<div><a href="/yumechikara/" target="_blank"><img src="image/top_carousel/bnr_40.jpg" alt="ゆめちから" /></a></div>
+				<div><a href="/chojuku-roll/" target="_blank" ><img src="image/top_carousel/bnr_43.jpg" alt="超塾ロール" /></a></div>
+				<div>
+<div  class="display_pc"><a href="/sweetannouimo/" target="_blank"><img src="image/top_carousel/bnr_annouimo.jpg" alt="スイート安納いも" /></a></div>
+<div  class="display_sp"><a href="/sweetannouimo/sp/" target="_blank"><img src="image/top_carousel/bnr_annouimo.jpg" alt="スイート安納いも" /></a></div>
+				</div>
+				<div><a href="/bakedchocolate/" target="_blank"><img src="image/top_carousel/bnr_Baked.jpg" alt="焼きショコラ" /></a></div>
+				<div><a href="/english_muffins/" target="_blank"><img src="image/top_carousel/bnr_english.jpg" alt="イングリッシュマフィン" /></a></div>
+				<div><a href="/rinyusyoku/" target="_blank"><img src="image/top_carousel/bnr_rinyushoku.jpg" alt="超熟でつくる離乳食レシピ" /></a></div>
+				<div><a href="/system/bread/index.cgi?action=bread_view&key=1480576810"><img src="image/top_carousel/bnr_yukino.jpg" alt="雪の北海道シリーズ" /></a></div>
+				<!--<div><a href="http://www.pasco-snackpan.jp/" target="_blank"><img src="image/top_carousel/bnr_snack.jpg" alt="スナックパン" /></a></div>
+				<div>
+					<div  class="display_pc"><a href="variety-bread/" target="_blank"><img src="image/top_carousel/bnr_variety.jpg" alt="バラエティブレッド" /></a></div>
+					<div  class="display_sp"><a href="variety-bread/sp/" target="_blank"><img src="image/top_carousel/bnr_variety.jpg" alt="バラエティブレッド" /></a></div>
+				</div>-->
+			</div>
+			<div id="arrows">
+				<div class="slick-next"> <img src="image/top_carousel/ico_02.gif" alt="→"> </div>
+				<div class="slick-prev"> <img src="image/top_carousel/ico_01.gif" alt="←"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- <div class="right_area flt_left">
+			<p>&nbsp;</p>
+		</div> --> 
+</div>
+<div class="container_top fix">
+	<div id="contents_top">
+		<h2 class="top_titbrand"><img src="image/response/top/tit_brand.gif" height="36" width="136" alt="ブランドサイト" /></h2>
+		<ul class="top_brandsitelist fix" >
+			<li class="flt_left"><a href="chojuku/" target="_blank" ><img src="image/response/top/bnr_brand01.gif" height="164" width="111" alt="超熟" /></a></li>
+			<li class="flt_left"><a href="/english_muffins/" target="_blank"><img src="image/response/top/bnr_brand02.gif" height="164" width="111" alt="イングリッシュマフィン" /></a></li>
+			<li class="flt_left"><a href="http://www.pasco-snackpan.jp/" target="_blank"><img src="image/response/top/bnr_brand03.gif" height="164" width="112" alt="スナックパン" /></a></li>
+			<li class="flt_left"><a href="/mybagel-special/" target="_blank" ><img src="image/response/top/bnr_brand07.gif" height="164" width="112" alt="MY BAGEL" /></a></li>
+			<li class="flt_left"><a href="yumechikara/" target="_blank" ><img src="image/response/top/bnr_brand05.gif" height="164" width="112" alt="ゆめちから" /></a></li>
+			<li class="flt_left last">
+				<div class="display_pc"><a href="variety-bread/" target="_blank"><img src="image/response/top/bnr_brand06.gif" height="164" width="111" alt="バラエティブレッド" /></a></div>
+				<div class="display_sp"><a href="variety-bread/sp/" target="_blank"><img src="image/response/top/bnr_brand06.gif" height="164" width="111" alt="スイート安納いも" /></a></div>
+			</li>
+		</ul>
+		<h2 class="top_titbrand"><img src="image/response/top/tit_pickup.gif" height="36" width="136" alt="Pick Up" /></h2>
+		<div class="display_sp sp_pickup mb50 mt20">
+			<!--<div class="wrap" style="margin:0  auto 20px;max-width:400px;">
+				<p style="text-align:center; margin-right:5%; margin-left:5%; padding-bottom:20;"> <a href="tokachi-butter-sticks/" target="_blank"> <img src="image/bnr_tokachiSp.jpg" alt="十勝バタースティック" class="scale" /> </a> </p>
+			</div>
+			<div class="wrap" style="margin:0  auto 20px;max-width:400px;">
+				<p style="text-align:center; margin-right:5%; margin-left:5%; padding-bottom:20;"> <a href="mybagel-special/" target="_blank"> <img src="image/bnr_mybagleSp.jpg" alt="MY BAGLE" class="scale" /> </a> </p>
+			</div>
+			-->
+			<div class="wrap" style="margin:0  auto 20px;max-width:400px;">
+				<p style="text-align:center; margin-right:5%; margin-left:5%; padding-bottom:20;"> <a href="yumechikara/" target="_blank"> <img src="image/bnr_yumechikaraSp.jpg" alt="ゆめちから" class="scale" /> </a> </p>
+			</div>
+			<div class="wrap" style="margin:0  auto 20px;max-width:400px;">
+				<p style="text-align:center; margin-right:5%; margin-left:5%; padding-bottom:20;"> <a href="variety-bread/sp/" target="_blank"> <img src="image/bnr_varietySp.jpg" alt="バラエティブレッド" class="scale" /> </a> </p>
+			</div>
+			<div class="wrap" style="margin:0  auto 20px;max-width:400px;">
+				<p style="text-align:center; margin-right:5%; margin-left:5%; padding-bottom:20;"> <a href="sweetannouimo/sp/" target="_blank"> <img src="image/bnr_annouimoSp.jpg" alt="スイート安納いも" class="scale" /> </a> </p>
+			</div>
+		</div>
+		<div class="top_latestcontents">
+			<div class="latestcontents_header fix">
+				<div class="left_area flt_left"><img id="infotab" src="image/txt_03.gif" height="30" width="134" alt="新着情報" class="infotab" /><img id="newstab" src="image/txt_04.gif" height="30" width="134" alt="ニュースリリース" class="newstab" /></div>
+				<div class="util flt_right fix">
+					<div class="right_area flt_right">
+						<p><a id="rssviewanchor" href="#"><img class="rssbutton" src="image/btn_01.gif" height="23" width="54" alt="RSS" /></a></p>
+					</div>
+					<div class="left_area flt_right">
+						<p><span class="listicon"><a id="listviewanchor" href="#">一覧を見る</a></span></p>
+					</div>
+				</div>
+			</div>
+			<div class="latestcontents_info" id="latestcontents_info"> 
+				<!-- NEWS_1_DATA_VIEW_START -->
+				<ul>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2017.01.19</span> <span class="label flt_left"> 
+							<img src="common/top_new.gif" alt="NEW" /> 
+							 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=news_view&amp;mode=information&amp;datakey=1484710384&amp;param_repartition=&amp;temp_name=">国産小麦シリーズ新商品「ゆめちから小麦と米粉のロール6個入」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2017.01.13</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=news_view&amp;mode=information&amp;datakey=1484046405&amp;param_repartition=&amp;temp_name=">「Pascoリサとガスパールから春のプレゼント！」 開催</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2017.01.05</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=news_view&amp;mode=information&amp;datakey=1482481199&amp;param_repartition=&amp;temp_name=">Pascoの公式Twitterアカウントを公開しました</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2017.1.04</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasco-snackpan.jp/special/book/" target="_blank">「スナックパン」ブランドサイトの「ジャッキーといっしょ！スナックパンえほん」ページに 新しいえほんをアップしました</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.12.27</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="/system/bread/index.cgi?action=new_list">1月の新商品を商品情報ページにアップしました</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.12.27</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="/system/recipe/index.php?ts=">今月のピックアップレシピを公開しました</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.12.27</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="/yumechikara/product/index.html" target="_blank">「ゆめちから」ブランドサイトを更新しました</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.12.27</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="/supporters/quest/index.html">パスコ・サポーターズ・クラブ会員様に「ベーグルについて」のアンケートを実施しました</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.12.20</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=news_view&amp;mode=information&amp;datakey=1481763339&amp;param_repartition=&amp;temp_name=">国産小麦シリーズ新商品「国産小麦の抹茶バウム」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.12.20</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=news_view&amp;mode=information&amp;datakey=1481763224&amp;param_repartition=&amp;temp_name=">冬だけの味わい！「雪の北海道」シリーズ　2016年12月28日より期間限定で発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.12.06</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/campaign_2016kodawari/" target="_blank">「栗原はるみさんの超熟こだわりキャンペーン」は終了しました</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.12.02</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=news_view&amp;mode=information&amp;datakey=1480416720&amp;param_repartition=&amp;temp_name=">「Pasco Facebookページ10,000いいね！感謝プレゼントキャンペーン」を実施します！</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.11.30</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="/sweetannouimo/" target="_blank">「種子島スイート安納いも」の特設サイトを公開しました</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.11.30</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="/mybagel-special/" target="_blank">「ＭＹ ＢＡＧＥＬ」ブランドサイトを更新しました</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.11.25</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="/company/csr/index.html">CSR報告書2016を公開しました</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.11.24</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=news_view&amp;mode=information&amp;datakey=1479808794&amp;param_repartition=&amp;temp_name=">パンメーカー初受賞！「マザーズセレクション大賞」にPascoの「スナックパン」が選ばれました！</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.11.24</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=news_view&amp;mode=information&amp;datakey=1479351247&amp;param_repartition=&amp;temp_name=">冬季限定！「どっちのいちごを選びますか？」　2アイテムを2016年12月1日より期間限定発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.11.24</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=news_view&amp;mode=information&amp;datakey=1479351172&amp;param_repartition=&amp;temp_name=">国産小麦シリーズ新商品「国産小麦のくるみパン」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.10.31</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="/supporters/activity.html">パスコ・サポーターズ・クラブ会員様に「ベーグルについて」のグ ループインタビューを実施しました</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.10.31</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="/fun/wallpaper/">パスコ・サポーターズ・クラブ壁紙を更新しました</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.10.27</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=news_view&amp;mode=information&amp;datakey=1476945947&amp;param_repartition=&amp;temp_name=">「濃厚テリーヌジャンドゥーヤ」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.10.20</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=news_view&amp;mode=information&amp;datakey=1476925583&amp;param_repartition=&amp;temp_name=">国産小麦シリーズ新商品「国産小麦のクリームパン」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.10.20</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=news_view&amp;mode=information&amp;datakey=1476925692&amp;param_repartition=&amp;temp_name=">国産小麦シリーズ新商品「国産小麦のカステラ４個入」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.10.03</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/chojuku/cm/index.html" target="_blank">「超熟」ブランドサイトに新しい「超熟」CMをアップしました</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.09.30</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="campaign_2016kodawari/" target="_blank">「栗原はるみさんの超熟こだわりキャンペーン」が始まりました</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.09.30</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="english_muffins/" target="_blank">イングリッシュマフィンブランドサイトを更新しました</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.09.29</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=news_view&amp;mode=information&amp;datakey=1475112657&amp;param_repartition=&amp;temp_name=">女性に人気のさつまいもを使った焼き菓子「種子島スイート安納いも」 10月1日新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.09.21</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=news_view&amp;mode=information&amp;datakey=1474438482&amp;param_repartition=&amp;temp_name=">国産小麦シリーズ新商品「国産小麦のつぶあんパン」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.09.21</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=news_view&amp;mode=information&amp;datakey=1474438627&amp;param_repartition=&amp;temp_name=">「イングリッシュマフィン4種のナッツ」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.09.05</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=news_view&amp;mode=information&amp;datakey=1473069507&amp;param_repartition=&amp;temp_name=">Pascoの公式Facebookページを公開しました</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.08.31</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="/variety-bread/" target="_blank">「Pascoバラエティブレッド」ブランドサイトを公開しました</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.08.31</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="/system/bread/index.cgi?action=bread_view&amp;key=1470198162">「秋の味わいたっぷり」シリーズ期間限定発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.08.31</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasco-snackpan.jp/" target="_blank">「スナックパン」ブランドサイトをリニューアルしました</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.08.08</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=news_view&amp;mode=information&amp;datakey=1470629972&amp;param_repartition=&amp;temp_name=">パスコ・サポーターズ・クラブ第14期会員募集のお知らせ</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.08.05</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=news_view&amp;mode=information&amp;datakey=1470360825&amp;param_repartition=&amp;temp_name=">刈谷工場の火災についてお詫びとご報告</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.03.23</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=news_view&amp;mode=information&amp;datakey=1458701384&amp;param_repartition=&amp;temp_name=">厚生労働省「女性の活躍・両立支援サイト」にPascoの女性活躍についての行動計画を掲載しました</a> 
+							</span> </p>
+					</li>
+					
+				</ul>
+				<!-- NEWS_1_DATA_VIEW_END --> </div>
+			<div class="latestcontents_news" id="latestcontents_news"> 
+				<!-- NEWS_2_DATA_VIEW_START -->
+				<ul>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2017.01.19</span> <span class="label flt_left"> 
+							<img src="common/top_new.gif" alt="NEW" /> 
+							 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1484710384&amp;param_repartition=&amp;temp_name=">国産小麦シリーズ新商品「ゆめちから小麦と米粉のロール6個入」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2017.01.13</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1484046405&amp;param_repartition=&amp;temp_name=">「Pascoリサとガスパールから春のプレゼント！」 開催</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2017.01.05</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1482481199&amp;param_repartition=&amp;temp_name=">Pascoの公式Twitterアカウントを公開しました</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.12.20</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1481763339&amp;param_repartition=&amp;temp_name=">国産小麦シリーズ新商品「国産小麦の抹茶バウム」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.12.20</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1481763224&amp;param_repartition=&amp;temp_name=">冬だけの味わい！「雪の北海道」シリーズ　2016年12月28日より期間限定で発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.12.02</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1480416720&amp;param_repartition=&amp;temp_name=">「Pasco Facebookページ10,000いいね！感謝プレゼントキャンペーン」を実施します！</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.11.25</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="/company/csr/index.html">CSR報告書2016を公開しました</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.11.24</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1479808794&amp;param_repartition=&amp;temp_name=">パンメーカー初受賞！「マザーズセレクション大賞」にPascoの「スナックパン」が選ばれました！</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.11.24</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1479351247&amp;param_repartition=&amp;temp_name=">冬季限定！「どっちのいちごを選びますか？」　2アイテムを2016年12月1日より期間限定発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.11.24</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1479351172&amp;param_repartition=&amp;temp_name=">国産小麦シリーズ新商品「国産小麦のくるみパン」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.10.27</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1476945947&amp;param_repartition=&amp;temp_name=">「濃厚テリーヌジャンドゥーヤ」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.10.20</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1476925583&amp;param_repartition=&amp;temp_name=">国産小麦シリーズ新商品「国産小麦のクリームパン」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.10.20</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1476925692&amp;param_repartition=&amp;temp_name=">国産小麦シリーズ新商品「国産小麦のカステラ４個入」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.09.29</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1475112657&amp;param_repartition=&amp;temp_name=">女性に人気のさつまいもを使った焼き菓子「種子島スイート安納いも」 10月1日新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.09.21</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1474438482&amp;param_repartition=&amp;temp_name=">国産小麦シリーズ新商品「国産小麦のつぶあんパン」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.09.21</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1474438627&amp;param_repartition=&amp;temp_name=">「イングリッシュマフィン4種のナッツ」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.09.13</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1473724844&amp;param_repartition=&amp;temp_name=">「栗原はるみさんの超熟こだわりキャンペーン」開催</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.08.23</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1471932526&amp;param_repartition=&amp;temp_name=">「秋の味わいたっぷり」シリーズ5アイテム 期間限定で発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.08.18</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1471496333&amp;param_repartition=&amp;temp_name=">Pascoのロングセラー「スナックパン」シリーズ 2016年9月1日よりリニューアル</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.08.18</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1471500431&amp;param_repartition=&amp;temp_name=">いつもよりちょっといい食卓Pascoのバラエティブレッド「くるみブレッド」2016年9月1日新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.07.21</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1468572783&amp;param_repartition=&amp;temp_name=">国産小麦シリーズ新商品「国産小麦の黒糖コッペ」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.07.21</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1468572734&amp;param_repartition=&amp;temp_name=">「ふんわり」×「もっちり」食感の白い生地「ましゅふわ」シリーズ 2アイテム新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.05.19</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1463537642&amp;param_repartition=&amp;temp_name=">期間限定！国産小麦「ゆめちから」を使ったベーグルシリーズ「MY BAGEL レモン＆オレンジ」2016年6月1日新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.05.19</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1463537436&amp;param_repartition=&amp;temp_name=">国産小麦シリーズ新商品「国産小麦のパン・オ・ショコラ」2016年6月1日新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.04.26</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1461581591&amp;param_repartition=&amp;temp_name=">「ゆめちから入り塩バターパン6個入」 塩とバターのこだわりを高めるリニューアルを実施</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.04.26</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1461581349&amp;param_repartition=&amp;temp_name=">「ゆめちから」など国産素材を使用したシリーズ「国産小麦のスフレどら焼き」2016年5月1日発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.04.21</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1461145444&amp;param_repartition=&amp;temp_name=">伝統あるフランス菓子をモチーフに！「フレンチスイーツ」シリーズ新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.03.24</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1458261963&amp;param_repartition=&amp;temp_name=">国産小麦シリーズ「国産小麦のクラウンメロンパン」「国産小麦のよもぎ蒸しパン」 2016年4月1日発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.03.11</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1457592844&amp;param_repartition=&amp;temp_name=">幅広い年代から好評の「スナックパン」シリーズ 大人向けシリーズ2種　リニューアル発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.03.08</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1457344532&amp;param_repartition=&amp;temp_name=">Pascoは「名古屋ウィメンズマラソン2016」に5年連続で協賛します</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.02.24</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1456294951&amp;param_repartition=&amp;temp_name=">国産小麦のおいしさ 「国産小麦のワッフル2個入」3月1日新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.02.18</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1455589580&amp;param_repartition=&amp;temp_name=">宇治抹茶とホワイトチョコレートをたっぷり練り込んだ「濃厚テリーヌ抹茶」2016年3月1日新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2016.02.18</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1455589494&amp;param_repartition=&amp;temp_name=">「京 宇治抹茶の味わい」シリーズ3アイテム、2016年3月1日より期間限定発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.11.24</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1448259043&amp;param_repartition=&amp;temp_name=">冬季限定「いちご一会物語」シリーズ2アイテム新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.11.19</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1447823964&amp;param_repartition=&amp;temp_name=">「国産小麦のレーズンクリームサンド3個入」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.10.28</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1445942935&amp;param_repartition=&amp;temp_name=">「国産小麦の焼きカレーパン」発売の件</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.10.21</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1445337905&amp;param_repartition=&amp;temp_name=">「ホットケーキサンド メープル＆マーガリン」リニューアル発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.10.20</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1445318877&amp;param_repartition=&amp;temp_name=">「超熟イングリッシュマフィン」リニューアル発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.10.14</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1444797713&amp;param_repartition=&amp;temp_name=">「もちっとチョコクロワッサン」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.09.24</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1442890427&amp;param_repartition=&amp;temp_name=">「濃厚テリーヌショコラ」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.09.17</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1442457757&amp;param_repartition=&amp;temp_name=">「超熟 国産小麦4枚スライス」「2枚入」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.09.17</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1442457595&amp;param_repartition=&amp;temp_name=">「国産小麦のおとうふクリームパン」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.08.31</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1440737645&amp;param_repartition=&amp;temp_name=">「MY BAGEL」シリーズリニューアル／タニタ食堂監修のベーグルレシピ公開</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.08.26</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1440563172&amp;param_repartition=&amp;temp_name=">「秋の味わいたっぷり」シリーズ新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.08.24</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1440391518&amp;param_repartition=&amp;temp_name=">「ゆめちから入りちぎりパン」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.06.25</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1435035012&amp;param_repartition=&amp;temp_name=">国産小麦の菓子パン3アイテム新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.06.25</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1435034780&amp;param_repartition=&amp;temp_name=">「ジャッキーのえほん」シリーズ新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.05.26</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1432614659&amp;param_repartition=&amp;temp_name=">国産小麦の菓子パン2アイテム新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.04.24</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1429837977&amp;param_repartition=&amp;temp_name=">「PASCO SPECIAL SELECTION」発売20周年　記念商品発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.04.23</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1429750367&amp;param_repartition=&amp;temp_name=">「北海道×北海道シリーズ」期間限定発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.04.21</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1429576653&amp;param_repartition=&amp;temp_name=">「クロワッサンフランスレーズン」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.03.25</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1427240415&amp;param_repartition=&amp;temp_name=">「シューデニッシュ クリーム＆レーズンケーキ」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.03.12</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1426047731&amp;param_repartition=&amp;temp_name=">「超熟 国産小麦」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.02.25</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1424829451&amp;param_repartition=&amp;temp_name=">「宇治抹茶シリーズ」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.02.23</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1424668211&amp;param_repartition=&amp;temp_name=">食育スマホアプリ「ジャッキーのスナックパン」公開</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.02.23</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1424667837&amp;param_repartition=&amp;temp_name=">「スナックパン フルーツ＆ブラン 6本入」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.02.19</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1424234273&amp;param_repartition=&amp;temp_name=">国産小麦の菓子パン4アイテム新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.01.28</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1422406264&amp;param_repartition=&amp;temp_name=">「ゆめちから入り塩バターパン」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.01.15</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1421300460&amp;param_repartition=&amp;temp_name=">「超熟」シリーズリニューアル発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2015.01.13</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1421108814&amp;param_repartition=&amp;temp_name=">「リサとガスパールから春のプレゼント！」キャンペーン開催</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2014.12.19</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1418792435&amp;param_repartition=&amp;temp_name=">「たっぷりレーズンちぎりぱん」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2014.12.19</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1418792361&amp;param_repartition=&amp;temp_name=">「濃厚おとなリッチ2015」シリーズ冬季限定発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2014.12.01</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1417418807&amp;param_repartition=&amp;temp_name=">国際食品安全イニシアチブ（GFSI）が制定したベンチマーク承認規格「FSSC 22000」を、神戸工場とパスコ埼玉工場で認証取得</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2014.10.28</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1414474886&amp;param_repartition=&amp;temp_name=">「お米のケーキ」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2014.10.24</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1414129083&amp;param_repartition=&amp;temp_name=">「イチジクとクルミのパン」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2014.10.24</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1414129027&amp;param_repartition=&amp;temp_name=">「とろけるクリームシフォン」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2014.10.16</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1413433436&amp;param_repartition=&amp;temp_name=">「からだ応援ロール」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2014.09.29</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1411953652&amp;param_repartition=&amp;temp_name=">「お菓子なデニッシュ」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2014.08.28</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1409202587&amp;param_repartition=&amp;temp_name=">秋の期間限定シリーズ発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2014.08.26</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1409018283&amp;param_repartition=&amp;temp_name=">「ハムからしデニッシュ」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2014.05.20</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1400488820&amp;param_repartition=&amp;temp_name=">「Let's Enjoy イングリッシュマフィン！」キャンペーン実施</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2014.04.25</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1398405017&amp;param_repartition=&amp;temp_name=">「北海道こだわり素材シリーズ」期間限定発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2014.04.25</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1398404940&amp;param_repartition=&amp;temp_name=">「濃厚ミルクフランス」リニューアル発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2014.03.31</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1396234326&amp;param_repartition=&amp;temp_name=">「ゆめちから」マークを日本サブウェイ様に採用していただきました</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2014.03.27</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1395900612&amp;param_repartition=&amp;temp_name=">「十勝バタースティック」シリーズリニューアル発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2014.03.27</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1395900517&amp;param_repartition=&amp;temp_name=">「あずきくるみデニッシュ」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2014.03.12</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1394522462&amp;param_repartition=&amp;temp_name=">「グラノーラロール4個入」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2014.02.20</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1392778475&amp;param_repartition=&amp;temp_name=">「超熟ロール」「超熟ロールレーズン」リニューアル発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2014.02.20</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1392778328&amp;param_repartition=&amp;temp_name=">定番菓子パン5アイテム リニューアル発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2014.02.20</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1392778219&amp;param_repartition=&amp;temp_name=">「京 宇治抹茶シリーズ」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2013.12.24</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1387861847&amp;param_repartition=&amp;temp_name=">「濃厚味わい2014」シリーズ冬季限定発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2013.11.28</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1385615855&amp;param_repartition=&amp;temp_name=">「MY BAGELチョコレート」冬季限定発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2013.11.28</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1385615059&amp;param_repartition=&amp;temp_name=">「フレンチアップルパイ」リニューアル発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2013.10.30</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1383030611&amp;param_repartition=&amp;temp_name=">「あん＆ホイップドーナツ」西日本エリアでも発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2013.10.30</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1383030402&amp;param_repartition=&amp;temp_name=">「ゆめちからブランロール」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2013.08.19</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1376557347&amp;param_repartition=&amp;temp_name=">「MY BAGEL」シリーズ新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2013.03.14</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1363161189&amp;param_repartition=&amp;temp_name=">国産小麦粉を利用したパンを毎日の食卓に「ゆめちから入り食パン」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2013.03.12</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1363052291&amp;param_repartition=&amp;temp_name=">書籍「Pascoのとっておきパンレシピ」発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2013.02.20</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1361333603&amp;param_repartition=&amp;temp_name=">「みるくろーる」新発売</a> 
+							</span> </p>
+					</li>
+					
+					<li>
+						<p class="fix"> <span class="time flt_left">2013.02.18</span> <span class="label flt_left"> 
+							 
+							<img src="image/bg_whiteblank.gif" height="15" width="60" alt="" /> 
+							</span> <span class="title flt_left"> 
+							<a href="http://www.pasconet.co.jp/system2/infoeditor/index.cgi?action=release_view&amp;mode=information&amp;datakey=1361155267&amp;param_repartition=&amp;temp_name=">「マカロン食感ホイップ」新発売</a> 
+							</span> </p>
+					</li>
+					
+				</ul>
+				<!-- NEWS_2_DATA_VIEW_END --> 
+			</div>
+			<p class="display_sp"><span class="listicon"><a id="listviewanchor2" href="#"><span class="icon">一覧を見る</span></a></span></p>
+			<div class="nextbutton"></div>
+		</div>
+	</div>
+	<div id="side_left_top">
+		<h2 id="top_cm">CM紹介</h2>
+		<div class="side_left_inner">
+			<div class="">
+				<p>
+					<iframe width="200" height="113" src="https://www.youtube.com/embed/yrjl4k9KuQY?rel=0" frameborder="0" allowfullscreen></iframe>
+				</p>
+			</div>
+		</div>
+		<p class="t_center cm_title"><img src="image/response/top/cm_title.png" width="150" alt="超熟CM「イギリス人もおどろくイギリスパン」篇" /></p>
+		<div class="side_left_inner">
+			<div class="gallery_link">
+				<div class="topfltxt">
+					<p><a href="chojuku/cm/index.html" target="_blank"><span class="ico">超熟 CMギャラリーはこちら</span></a></p>
+				</div>
+			</div>
+			<ul id="side_link">
+				<li class="display_pc"><a href="https://www.facebook.com/Pasco.JP/" target="_blank"><img src="image/bnr_fb01pc.png" alt="Pasco公式Facebookアカウント" width="200" /></a></li>
+				<li class="display_pc"><a href="https://twitter.com/Pasco_JP" target="_blank"><img src="image/bnr_tw2.png" alt="Pasco公式twitterアカウント" width="200" /></a></li>
+				<li><a href="supporters/index.html"><img src="image/response/top/bnr_01.png" alt="パスコサポーターズ・クラブ" width="200" /></a></li>
+				<li><a href="https://service.sugumail.com/pasco/member/" target="_blank"><img src="image/response/top/bnr_02.png" alt="なるほどPasco メールマガジン" width="200" /></a></li>
+				<!--<li><a href="fun/quiz/index.html"><img src="image/response/top/bnr_03.gif" alt="パンクイズ" width="200" /></a></li>-->
+				<li><a href="https://www.yumechikara.com/" target="_blank"><img src="image/response/top/bnr_04.png" alt="ゆめちから" width="200" /></a></li>
+				<li><a href="/company/feeling/material01.html"><img src="image/response/top/bnr_05.png" alt="トランス脂肪酸低減の取り組み" width="200" /></a></li>
+			</ul>
+		</div>
+		<p class="display_pc"><img src="image/img_01.gif" height="42" width="220" alt="" /></p>
+	</div>
+	<!--end side_left--> 
+</div>
+<div class="container_top">
+	<div class="bottombunners fix">
+		<div class="display_sp one">
+			<p><a href="https://www.facebook.com/Pasco.JP/" target="_blank" class="externalLink"><img src="image/response/top/bnr_fb01.jpg" height="80" width="305" alt="Pasco公式Facebookアカウント" class="scale" /></a></p>
+		</div>
+		<div class="display_sp one">
+			<p><a href="https://twitter.com/Pasco_JP" target="_blank" class="externalLink"><img src="image/bnr_twSp2.jpg" height="158" width="597" alt="Pasco公式twitterアカウント" class="scale" /></a></p>
+		</div>
+		<div class="flt_left one">
+			<p class="mb05"><a href="http://www.pascoshop.com/" target="_blank" class="externalLink"><img src="image/response/top/bnr_05.gif" height="80" width="305" alt="Pascoの通販" class="scale" /></a></p>
+		</div>
+		<div class="flt_left three">
+			<p><a href="http://www.pasconet.co.jp/frozen/" target="_blank"><img src="image/response/top/bnr_07.gif" height="80" width="305" alt="Pascoの冷凍生地" class="scale" /></a></p>
+		</div>
+	</div>
+</div>
+<!--end side_right-->
+</div>
+<p class="pageTopWrap display_sp"><a id="pageTop" href="javascript:void(0)"><img src="image/response/common/btn_pagetop.png" width="48" height="48" alt="page top" class="png"></a></p>
+<!--end container-->
+<div class="footer_wrapper">
+	<div id="footer_top" class="footer_top_super">
+		<div class="footerbgtop"></div>
+		<div class="footerbgmiddle">
+			<div class="footerbggradient fix">
+				<ul class="accordion">
+					<li id="link_bread">
+						<h3 class="tit tit_product"><a href="/system/bread/index.cgi?action=new_list"><span>商品情報</span></a></h3>
+						<p class="display_sp ico_pc"><span>商品情報</span></p>
+						<ul>
+							<li class="accordion_index"><a href="/system/bread/index.cgi?action=new_list"><span>商品情報トップ</span></a></li>
+							<li class="list_product"><a href="/system/bread/index.cgi?action=new_list">新商品</a></li>
+							<li class="list_product"> <a href="/system/bread/index.cgi?action=search_cat_list_item&amp;key=1183429542">カテゴリから探す</a>
+								<ul class="child_list">
+									<li><a href="/system/bread/index.cgi?action=search_cat_list_item&key=1183429542">食パン</a></li>
+									<li><a href="/system/bread/index.cgi?action=search_cat_list_item&key=1183429660">ロールパン</a></li>
+									<li><a href="/system/bread/index.cgi?action=search_cat_list_item&key=1183429661">イングリッシュマフィン</a></li>
+									<li><a href="/system/bread/index.cgi?action=search_cat_list_item&key=1183429662">菓子パン</a></li>
+									<li><a href="/system/bread/index.cgi?action=search_cat_list_item&key=1332815824">惣菜パン</a></li>
+									<li><a href="/system/bread/index.cgi?action=search_cat_list_item&key=1183429663">和洋菓子</a></li>
+									<li><a href="/system/bread/index.cgi?action=search_cat_list_item&key=1183429664">ロングライフブレッド</a></li>
+								</ul>
+							</li>
+							<li class="list_product"><a href="/system/bread/index.cgi?action=search_bre_list">商品名から探す</a></li>
+							<li class="list_product even"><a href="/system/bread/index.cgi?action=search_area_list&amp;area=1" class="current firstChild lastChild">地域別商品</a></li>
+							<li class="list_product"><a href="/system/bread/brand/index.html">ブランドサイト</a></li>
+							<li class="list_product"><a href="/system/bread/long/index.html">ロングセラー物語</a></li>
+						</ul>
+					</li>
+					<li id="link_recipe">
+						<h3 class="mt10 tit tit_recipe"><a href="/system/recipe/index.php"><span>レシピ</span></a></h3>
+						<p class="display_sp"><span>レシピ</span></p>
+						<ul>
+							<li class="accordion_index no-icon"><a href="/system/recipe/index.php"><span>レシピトップ</span></a></li>
+							<li class="list_recipe"><a href="/system/recipe/recipe_list.php?mode=4&amp;sort=1&amp;ts=1409213052">人気レシピランキング</a></li>
+							<li class="list_recipe"><a href="/system/recipe/silicon_steamer/">シリコンスチーマーレシピ</a></li>
+							<li class="list_recipe"><a href="/system/recipe/silicon_steamer/">簡単パンレシピ</a></li>
+							<li class="list_recipe"><a href="/system/recipe/silicon_steamer/">アレンジパンレシピ</a></li>
+							<li class="list_recipe"><a href="/system/recipe/silicon_steamer/">カロリー控えめパンレシピ</a></li>
+							<li class="list_recipe"><a href="/system/recipe/recipe_list.php?search_side%5B%5D=2&amp;search_side%5B%5D=3&amp;search_side%5B%5D=4&amp;search_side%5B%5D=5&amp;ts=1408996329">パンにあう料理</a></li>
+							<li class="list_recipe"><a href="/system/recipe/recipe_list.php?search_side%5B%5D=1&amp;search_side%5B%5D=6&amp;search_side%5B%5D=7&amp;search_side%5B%5D=8&amp;ts=1408996329">パンにあう飲み物</a></li>
+						</ul>
+					</li>
+					<li id="link_fun">
+						<h3 class="tit tit_school"><a href="/fun/index.html"><span>パンの学校</span></a></h3>
+						<p class="display_sp ico_pc"><span>パンの学校</span></p>
+						<ul>
+							<li class="accordion_index"><a href="/fun/index.html"><span>パンの学校トップ</span></a></li>
+							<li class="list_school"><a href="/fun/breakfast/process.html">パンが食卓に届くまで</a></li>
+							<li class="list_school"><a href="/factory/index.html">工場見学</a></li>
+							<li class="list_school"><a href="/fun/safety/index.html">パンの表示について</a></li>
+							<li class="list_school"><a href="/fun/worldbread/index.html">世界のパン</a></li>
+							<li class="list_school"><a href="/fun/knowledge/kind.html">パンのまめちしき</a></li>
+							<li class="list_school"><a href="/system/fun/dictionary/index.php">パン辞典</a></li>
+							<li class="list_school"><a href="/fun/tasty/trick.html">パンのおいしい食べ方</a></li>
+							<li class="list_school"><a href="/fun/dekitayo/index.html">親子でクッキング</a></li>
+							<li class="list_school"><a href="/fun/pleasant/toast.html">楽しく食べるアイデア集</a></li>
+							<li class="list_school"><a href="/fun/breakfast/recipe.html">さ、朝ごはん</a></li>
+							<li class="list_school"><a href="/fun/quiz/index.html">パンクイズ</a></li>
+						</ul>
+					</li>
+					<li id="link_netshopping">
+						<h3 class="mt10 tit tit_shopping"><a href="/system2/netshopping/index.cgi"><span>ネットショッピング</span></a></h3>
+						<p class="display_sp ico_pc"><span>ネットショッピング</span></p>
+						<ul>
+							<li class="accordion_index"><a href="/system2/netshopping/index.cgi"><span>ネットショッピングトップ</span></a></li>
+							<li class="list_shopping"><a href="http://www.pascoshop.com/" target="_blank">Pascoの通販</a></li>
+							<li class="list_shopping"><a href="/frozen/" target="_blank" >Pascoの冷凍生地</a></li>
+						</ul>
+					</li>
+					<li id="link_csr">
+						<h3 class="tit tit_csr"><a href="/company/csr/index.html"><span>CSR</span></a></h3>
+						<p class="display_sp ico_pc"><span>CSR</span></p>
+						<ul>
+							<li class="accordion_index"><a href="/company/csr/index.html"><span>CSRトップ</span></a></li>
+							<li class="list_csr"><a href="/company/csr/pdf/01.pdf" target="_blank">編集方針</a></li>
+							<li class="list_csr"><a href="/company/csr/pdf/03-08.pdf" target="_blank">Pasco<br />
+								ステークホルダーダイアログ2016　人と社会に貢献する。その使命を果たし、豊かな未来へ。</a></li>
+							<li class="list_csr"><a href="/company/csr/pdf/09-12.pdf" target="_blank">[特集]「おいしさ」「楽しさ」「安全・安心」を届ける。<br />私たちはパン作りの一つひとつに想いを込めます。</a></li>
+							<li class="list_csr"><a href="/company/csr/pdf/13-14.pdf" target="_blank">豊かな食生活のために &#9312;</a></li>
+							<li class="list_csr"><a href="/company/csr/pdf/15-16.pdf" target="_blank">豊かな食生活のために &#9313;</a></li>
+							<li class="list_csr"><a href="/company/csr/pdf/17-18.pdf" target="_blank">ロス・ムダ・コスト削減</a> </li>
+							<li class="list_csr"><a href="/company/csr/pdf/19-20.pdf" target="_blank">地球環境のために</a> </li>
+							<li class="list_csr"><a href="/company/csr/pdf/21-22.pdf" target="_blank">働きがいのある職場づくり</a></li>
+							<li class="list_csr"><a href="/company/csr/pdf/23-24.pdf" target="_blank">社会への貢献</a></li>
+							<li class="list_csr"><a href="/company/csr/pdf/25.pdf" target="_blank">会社概要</a></li>
+							<li class="list_csr"><a href="/company/csr/pdf/26.pdf" target="_blank">第三者評価、あとがきにかえて</a></li>
+							<li class="list_csr"><a href="/company/csr/organization/index.html">みなさまの信頼に応える<br />
+								組織・体制・制度</a></li>
+							<li class="list_csr"><a href="/company/csr/gri/index.html">GRIガイドライン対比表</a></li>
+							<li class="list_csr"><a href="/company/csr/questionnaire/index.php">アンケート</a></li>
+							<li class="list_csr"><a href="/company/csr/csr_design/index.html">CSR報告書2016<br />
+								表紙デザインについて</a></li>
+						</ul>
+					</li>
+					<li id="link_consultation">
+						<h3 class="tit tit_counseling okyakusama_mt"><a href="/consultation/index.html"><span>お客さま相談室</span></a></h3>
+						<p class="display_sp ico_pc"><span>お客さま相談室</span></p>
+						<ul>
+							<li class="accordion_index"><a href="/consultation/index.html"><span>お客さま相談室トップ</span></a></li>
+							<li class="list_counseling"><a href="/faq/faq07.html">よくあるご質問</a></li>
+							<li class="list_counseling"><a href="/system/bread/index.cgi?action=nourish_list">栄養成分表</a></li>
+							<li class="list_counseling"><a href="/frozen/index.html" target="_blank">ベーカリー開業に関するお問合せ</a></li>
+							<li class="list_counseling"><a href="/recruit/index.html" target="_blank">採用に関するお問合せ</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="footerbgbottom"></div>
+		</div>
+		<div class="topFooterLink">
+			<ul>
+				<li class="display_sp"><a href="company/index.html"><span>会社情報</span></a></li>
+				<li class="display_sp"><a href="recruit/index.html" target="_blank"><span>採用情報</span></a></li>
+				<li><a href="company/feeling/index.html"><span>安全・安心へのこだわり</span></a></li>
+				<li><a href="profile/index.html"><span>Pascoのこと</span></a></li>
+				<li><a href="faq/faq.html"><span>よくある質問</span></a></li>
+				<li><a href="support/index.html"><span>サイトマップ</span></a></li>
+				<li><a href="support/rule.html"><span>当サイトのご利用に関して</span></a></li>
+			</ul>
+			<ul>
+				<li><a href="support/protection.html"><span>個人情報保護方針</span></a></li>
+				<li><a href="support/mynumber.html"><span>特定個人情報の適正な取扱いに関する基本方針</span></a></li>
+				<li><a href="support/antisocial.html"><span>反社会勢力への対応に関する基本的方針</span></a></li>
+				<li><a href="company/activity/environment.html"><span>Pascoの環境宣言</span></a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="top_copyimage" class="top_footercopy">
+		<p class="t_center copy">Copy &copy;Pasco Shikishima Corporation All Rights Reserved.</p>
+	</div>
+</div>
+<!--end all--> 
+
+<!-- 【↑本文ここまで】 --> 
+
+<!-- 【Google Analytics】 -->
+
+<div> 
+	<script src="/js/g_analytics1.js" type="text/javascript"></script> 
+	<script src="/js/g_analytics2.js" type="text/javascript"></script> 
+</div>
+<!-- リマーケティング タグの Google コード -->
+<!--------------------------------------------------
+リマーケティング タグは、個人を特定できる情報と関連付けることも、デリケートなカテゴリに属するページに設置することも許可されません。タグの設定方法については、こちらのページをご覧ください。
+http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 938117558;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/938117558/?guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<!-- Yahoo Code for your Target List -->
+<script type="text/javascript" language="javascript">
+/* <![CDATA[ */
+var yahoo_retargeting_id = 'TKV7CXKX11';
+var yahoo_retargeting_label = '';
+var yahoo_retargeting_page_type = '';
+var yahoo_retargeting_items = [{item_id: '', category_id: '', price: '', quantity: ''}];
+/* ]]> */
+</script>
+<script type="text/javascript" language="javascript" src="//b92.yahoo.co.jp/js/s_retargeting.js"></script>
+
+</body>
+</html>

@@ -19,6 +19,37 @@
 @import "bootstrap";
 @import "font-awesome";
 
+.l-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    z-index: 100;
+
+    // color: #656569;
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+    display: block;
+    vertical-align: baseline;
+    list-style: none;
+    background-color: transparent;
+    outline: none;
+
+
+}
+
+
+
+
+
+
+
+
 .custab{
   border: 1px solid #ccc;
   padding: 5px;
@@ -33,7 +64,7 @@
 }
 
 .jumbotron {
-  background-image: url('https://ooo.0o0.ooo/2017/01/17/587dc51190174.jpg');
+  // background-image: url('#');
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 110px;
@@ -101,7 +132,7 @@
 }
 
 .navbar-default {
-  background-color: black;
+  background-color: #f0f0f0;
   border-color: none;
   margin-bottom: 0;//底部margin不撑开距离
 }
@@ -113,38 +144,38 @@
 }
 
 .navbar-default .navbar-brand {
-  color: #388E3C;//字体颜色
+  color: #32a66e;//字体颜色
   padding: 10px 15px;//上下10px,左右15px
   line-height: 30px;//文字行高
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #7986CB;//鼠标放置在链接上的文字颜色
+  color: #ffa349;//鼠标放置在链接上的文字颜色
   background-color: transparent;//鼠标放置在链接上的背景颜色，这里设为透明
 }
 
 .navbar-default .navbar-nav > li > a{
-  color: #388E3C;
+  color: #32a66e;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #7986CB;
+  color: #ffa349;
   background: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #FF6F00;
-  background-color: #7986CB;
+  background-color: #32a66e;
 }
 
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:focus,
 .navbar-default .navbar-nav > .open > a:hover {
-  background-color: #7986CB;
-  color: #212121;
+  background-color: #32a66e;
+  color: white;
 }
 
 .navbar-brand > img {
@@ -179,3 +210,53 @@
   border-radius: 3px;//btn圆角
   width: 200px;//这里用指定宽度把btn拉的更长
 }
+
+//2nd part  trouble point
+.home-recommended-point__trouble__cell, .home-recommended-point__trouble__clone__cell {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0 21px 14px 15px;
+    width: 33%;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: 10;
+    box-shadow: 5px 5px 5px rgba(224,224,224,50);
+}
+
+.home-recommended-point__trouble__text {
+    color: #656569;
+    margin-top: 3px;
+    padding: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: normal;
+}
+
+// .home-recommended-point__trouble {
+//   background-color: none;
+//   text-align: center;
+//   vertical-align: top;
+//   letter-spacing: 10;
+// }
+.vision {
+  color: #656569;
+  padding: 20px;
+  margin-top: 3px;
+  display: block;
+  background-color: #f0f0f0;
+  text-align: center;
+  vertical-align: bottom;;
+  letter-spacing: 10;
+  box-shadow: 10px 10px 5px rgba(224,224,224,50);
+}
+
+
+.l-contents {
+  padding: 20px;
+  color: #2c2c2d;
+}
+
+
+
+//
